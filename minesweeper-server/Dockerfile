@@ -19,4 +19,6 @@ WORKDIR /root/
 ## that matches *-jar-with-dependencies.jar with a single match
 COPY --from=0 /target/*-jar-with-dependencies.jar app.jar
 #ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","./app.jar"]
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-cp","./app.jar","AppKt"]
+#ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-cp","./app.jar","AppKt"]
+
+ENTRYPOINT ["java","-jar","./app.jar"]
