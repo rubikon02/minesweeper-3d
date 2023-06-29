@@ -77,9 +77,9 @@ fun enableCORS(origin: String, methods: String, headers: String) {
 
 fun connect(): Connection {
     return DriverManager.getConnection(
-        "jdbc:postgresql://ec2-63-34-97-163.eu-west-1.compute.amazonaws.com:5432/d6ad78d9bnlrer",
-        "adgzgdpiyokbln",
-        "ae079ebb0d9cc998874e3ccace664b4e0304c48ca3de8748aa2d64747e6cd0fc")
+        "jdbc:postgresql://dpg-cidtvb59aq0ce38g16b0-a.frankfurt-postgres.render.com:5432/minesweeper",
+        "minesweeper_user",
+        "MVatHQX16zCicweZJDlKjy7RSRwSIIYF")
 //    return DriverManager.getConnection(
 //        "jdbc:postgresql://localhost:5432/minesweeper",
 //        "postgres",

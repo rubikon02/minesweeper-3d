@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df88f269-0e32-49c7-ad0f-21329c8871de" name="Default Changelist" comment="websocket setup">
-      <change beforePath="$PROJECT_DIR$/minesweeper-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/minesweeper-server.iml" afterDir="false" />
+    <list default="true" id="df88f269-0e32-49c7-ad0f-21329c8871de" name="Default Changelist" comment="Fix database and add docker">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/45321dc3-dfe9-4679-9fe8-295b43e31996.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/45321dc3-dfe9-4679-9fe8-295b43e31996/storage_v2/_src_/database/d6ad78d9bnlrer.KsNfkQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/45321dc3-dfe9-4679-9fe8-295b43e31996/storage_v2/_src_/database/d6ad78d9bnlrer.KsNfkQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/45321dc3-dfe9-4679-9fe8-295b43e31996/storage_v2/_src_/database/d6ad78d9bnlrer.KsNfkQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/45321dc3-dfe9-4679-9fe8-295b43e31996/storage_v2/_src_/database/d6ad78d9bnlrer.KsNfkQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_7_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_7_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_5_4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -58,7 +76,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
@@ -329,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623962817753</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fix database and add docker">
+      <created>1688047025794</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688047025794</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +398,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="websocket setup" />
     <MESSAGE value="websocket 3" />
     <MESSAGE value="websocket 4" />
     <MESSAGE value="websocket 5" />
@@ -398,6 +422,7 @@
     <MESSAGE value="typo" />
     <MESSAGE value="20x20 board" />
     <MESSAGE value="20x20 board fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="20x20 board fix" />
+    <MESSAGE value="Fix database and add docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix database and add docker" />
   </component>
 </project>
