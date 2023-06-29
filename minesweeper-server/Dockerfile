@@ -4,12 +4,12 @@ FROM maven:3.6.0-jdk-8-alpine
 
 ## download dependencies
 ADD pom.xml /
-RUN mvn verify clean
+RUN ["mvn", "verify", "clean"]
 ## build after dependencies are down so it wont redownload unless the POM changes
 ADD . /
-RUN mvn package
+RUN ["mvn", "package"]
 
-EXPOSE 5000
+#EXPOSE 5000
 
 # Part 2: use the JAR file used in the first part and copy it across ready to RUN
 FROM openjdk:8-jdk-alpine
