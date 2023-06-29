@@ -18,4 +18,5 @@ WORKDIR /root/
 ## → this relies on your MAVEN package command building a jar
 ## that matches *-jar-with-dependencies.jar with a single match
 COPY --from=0 /target/*-jar-with-dependencies.jar app.jar
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","./app.jar"]
+#ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","./app.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-cp","./app.jar","AppKt"]
